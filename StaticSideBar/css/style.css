@@ -1,0 +1,79 @@
+/* This is used to set all the base colours used within the site */
+:root {
+    --ff-primary-dark: #000000;
+    --ff-primary-light: #323232;
+
+    --clr-primary-200: #F3EED9;
+    --clr-primary-400: #824936;
+
+    --clr-neutral-100: #FFF;
+    --clr-neutral-900: #222c2a;
+
+    --ff-primary: 'Roboto', sans-serif;
+    --ff-accent: 'Playfair Display', sans-serif;
+
+    --ff-primary-bgImg: url(assets/bg.jpg);
+    --ff-primary-me: url(/images/alvan_chance.jpg);
+
+    @import url();
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-color: var(--ff-primary-light);
+    background-size: cover;
+    font-family: var(--ff-accent);
+    font-weight: 400;
+    font-size: 1.3124rem;
+    line-height: 1.6;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--ff-accent);
+    font-weight: 900;
+    line-height: 1;
+}
+
+#header {
+    color: var(--clr-primary-200);
+    background-color: var(--ff-primary-dark);
+    height: 800px;
+    padding: 0.5rem;
+    margin: 0px;
+    opacity: 50%;
+    z-index: 5;
+}
+
+#pic {
+    position: absolute;
+    z-index: -1;
+    opacity: 20%;
+    height: auto;
+}
+
+.headerNav {
+    text-decoration: none;
+    z-index: 6;
+}
+
+.footer {
+    
+}
