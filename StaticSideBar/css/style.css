@@ -52,6 +52,18 @@ h3 {
     line-height: 1;
 }
 
+#sideBar {
+    background-color: var(--ff-primary-dark);
+    width: 20%;
+    height: 100vh;
+    padding: 20px;
+}
+
+.devImg {
+    margin: auto;
+    width: 90%;
+}
+
 #header {
     color: var(--clr-primary-200);
     background-color: var(--ff-primary-dark);
