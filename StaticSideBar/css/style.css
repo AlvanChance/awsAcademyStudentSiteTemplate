@@ -12,7 +12,14 @@
     --ff-primary: 'Roboto', sans-serif;
     --ff-accent: 'Playfair Display', sans-serif;
 
+    /* ASSETS USED ACROSS THE SITE */
     --ff-primary-bgImg: url(assets/bg.jpg);
+    --icon-email: url(/awsAcademyStudentSiteTemplate/StaticSideBar/assets/icons8-mail-48.png);
+    --icon-fb: url(/awsAcademyStudentSiteTemplate/StaticSideBar/assets/icons8-facebook-48.png);
+    --icon-instagram: url(/awsAcademyStudentSiteTemplate/StaticSideBar/assets/icons8-instagram-48.png);
+    --icon-linkedin: url(/awsAcademyStudentSiteTemplate/StaticSideBar/assets/icons8-linkedin-48.png);
+
+    /* IMAGES USED ACROSS THE SITE */
     --ff-primary-me: url(/images/alvan_chance.jpg);
 
     @import url();
