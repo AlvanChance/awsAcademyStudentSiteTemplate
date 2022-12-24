@@ -52,6 +52,7 @@ h3 {
     line-height: 1;
 }
 
+/* START OF SIDEBAR */
 #sideBar {
     background-color: var(--ff-primary-dark);
     width: 20%;
@@ -63,6 +64,15 @@ h3 {
     margin: auto;
     width: 90%;
 }
+
+/* SOCIAL MEDIA SECTION */
+.socMed {
+    margin: auto;
+    border: 0px;
+    padding: 2px;
+}
+
+/* END OF SIDEBAR */
 
 #header {
     color: var(--clr-primary-200);
