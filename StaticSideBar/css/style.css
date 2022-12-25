@@ -65,17 +65,16 @@ h3 {
 }
 
 #wrapper {
-    display: grid;
-    gap: 1.5rem;
+    display: flex;
 }
 
 /* START OF SIDEBAR */
 #sideBar {
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     left: 0;
     bottom: 0;
-    width: 300px;
+    width: 140%;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -89,7 +88,10 @@ h3 {
 }
 
 .content {
-    width: 100%;
+    position: static;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .content h2 {
@@ -101,6 +103,7 @@ h3 {
     margin: 10px 0px;
     border: 0px;
     padding: 2px;
+    size-adjust: 80%;
 }
 
 #sideBar .mainNav {
