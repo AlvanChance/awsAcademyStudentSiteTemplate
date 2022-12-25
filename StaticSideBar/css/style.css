@@ -1,4 +1,4 @@
-/* This is used to set all the base colours used within the site */
+/* This is used to set all the base colors used within the site */
 :root {
     --ff-primary-dark: #000000;
     --ff-primary-light: #323232;
@@ -20,7 +20,7 @@
     --icon-linkedin: url(/awsAcademyStudentSiteTemplate/StaticSideBar/assets/icons8-linkedin-48.png);
 
     /* IMAGES USED ACROSS THE SITE */
-    --ff-primary-me: url(/images/alvan_chance.jpg);
+    --ff-primary-me: url(/awsAcademyStudentSiteTemplate/StaticSideBar/img/20221120-AWS_Building_Blocks_Capture.PNG);
 
     @import url();
 
@@ -43,6 +43,11 @@ body {
     line-height: 1.6;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 body,
 h1,
 h2,
@@ -59,12 +64,23 @@ h3 {
     line-height: 1;
 }
 
+#wrapper {
+    display: grid;
+    gap: 1.5rem;
+}
+
 /* START OF SIDEBAR */
 #sideBar {
-    background-color: var(--ff-primary-dark);
-    width: 20%;
-    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
     padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    background-color: var(--ff-primary-dark);
 }
 
 .devImg {
@@ -72,11 +88,24 @@ h3 {
     width: 90%;
 }
 
+.content {
+    width: 100%;
+}
+
+.content h2 {
+    text-align: center;
+}
+
 /* SOCIAL MEDIA SECTION */
 .socMed {
-    margin: auto;
+    margin: 10px 0px;
     border: 0px;
     padding: 2px;
+}
+
+#sideBar .mainNav {
+    display: inline-block;
+    text-decoration: none;
 }
 
 /* END OF SIDEBAR */
@@ -91,7 +120,7 @@ h3 {
     z-index: 5;
 }
 
-#pic {
+/* #pic {
     position: absolute;
     z-index: -1;
     opacity: 20%;
@@ -101,8 +130,8 @@ h3 {
 .headerNav {
     text-decoration: none;
     z-index: 6;
-}
+} */
 
 .footer {
-    
+    text-align: center;
 }
