@@ -22,8 +22,13 @@
     /* IMAGES USED ACROSS THE SITE */
     --ff-primary-me: url(/awsAcademyStudentSiteTemplate/StaticSideBar/img/20221120-AWS_Building_Blocks_Capture.PNG);
 
+    /* FOOTER BACKGROUND MAP */
+    --map-primary: url(https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.5350188156845!2d-0.12992054858951052!3d51.50339977953466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604c56f3b61c7%3A0x9c97d4222fab0eb7!2s10%20Downing%20St%2C%20London%20SW1A%202AB!5e0!3m2!1sen!2suk!4v1671897719048!5m2!1sen!2suk);
+
     @import url();
 }
+
+@import "parallax.css";
 
 *,
 *::before,
@@ -34,7 +39,7 @@
 body {
     background-image: url(assets/bg.jpg);
     background-repeat: no-repeat;
-    background-color: pink;
+    /* background-color: pink; */
     background-size: cover;
     font-family: var(--ff-accent);
     font-weight: 400;
@@ -103,6 +108,7 @@ h3 {
 #sideBar .mainNav {
     display: inline-block;
     text-decoration: none;
+    list-style-type: none;
     line-height: 2.5;
 }
 
@@ -133,10 +139,12 @@ a:visited {
 }
 
 .copyright {
-    text-align: center;
-}
-
-.credits {
+    position: fixed;
+    object-fit: scale-down;
+    left: auto;
+    right: auto;
+    bottom: 0;
+    color: white;
     text-align: center;
 }
 
@@ -152,12 +160,6 @@ a:visited {
     flex-direction: column;
 }
 
-.row {
-    display: flex;
-    width: 100%;
-    height: auto;
-}
-
 .content #home h1 {
     position: absolute;
     top: 50%;
@@ -166,17 +168,76 @@ a:visited {
     transform: translate(-50%, -50%);
 }
 
+/* ABOUT SECTION */
+
+.about {
+    padding: 25px 5px;
+}
+
+.section-title h2::after {
+    content: "";
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #149ddd;
+    bottom: 0;
+    left: 0;
+}
+
+::after {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.col-left,
+.col-right {
+    margin: 0;
+    padding: 0;
+}
+
+
+
 .content h2 {
     text-align: left;
 }
 
 .img-fluid {
+    padding-top: 0;
     margin: 15px auto;
     display: block;
     width: 300px;
 }
 
+/* FOOTER */
+
+/* .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+} */
+
 /* END OF CONTENT */
+
+
+
+
 
 /* #header {
     color: var(--clr-primary-200);
