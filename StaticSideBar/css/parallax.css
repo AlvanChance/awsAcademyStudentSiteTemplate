@@ -1,9 +1,10 @@
 .img1 {
     /* The image used */
-    background-image: url("https://www.researchgate.net/publication/361035821/figure/fig3/AS:1165135435579394@1654801343702/Schematic-of-random-forest-architecture-employed-in-this-study-Explanations-of-the-input.png");
+    background-image: url("https://ugc.berkeley.edu/wp-content/uploads/2016/01/thunderstorm-3625405_1920.jpg");
     
     /* Set a specific height */
-    height: 100px; 
+    height: 100vh;
+    width: auto;
     
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -11,9 +12,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     }
+
 .img2 {
     /* The image used */
-    background-image: url("https://www.researchgate.net/publication/282077276/figure/fig2/AS:614103219466248@1523425025273/Proposed-architecture-of-a-Secret-Sharing-Scheme-in-a-Multi-cloud-environment-4-SeDas.png");
+    background-image: url("https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/weather/cloud/cirrus-hooks.jpg");
     
     /* Set a specific height */
     height: 100px; 
@@ -24,6 +26,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     }
+
 .img3 {
     /* The image used */
     background-image: url("https://www.researchgate.net/publication/301945975/figure/fig10/AS:668942863454208@1536499815067/Architecture-of-third-party-auditing-47.ppm");
@@ -37,6 +40,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     }
+
 .img4 {
     /* The image used */
     background-image: url("https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41534-021-00442-x/MediaObjects/41534_2021_442_Fig1_HTML.png");
@@ -50,6 +54,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     }
+
 .img5 {
     /* The image used */
     background-image: url("https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs40747-020-00162-3/MediaObjects/40747_2020_162_Fig1_HTML.png");
@@ -63,6 +68,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     }
+    
 .img6 {
     /* The image used */
     background-image: url("https://media.springernature.com/lw685/springer-static/image/chp%3A10.1007%2F978-3-030-33509-0_12/MediaObjects/482903_1_En_12_Fig1_HTML.png");

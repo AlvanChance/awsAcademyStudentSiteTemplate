@@ -34,7 +34,7 @@
 body {
     background-image: url(assets/bg.jpg);
     background-repeat: no-repeat;
-    background-color: var(--ff-primary-light);
+    background-color: pink;
     background-size: cover;
     font-family: var(--ff-accent);
     font-weight: 400;
@@ -59,7 +59,7 @@ h2,
 h3 {
     font-family: var(--ff-accent);
     font-weight: 900;
-    line-height: 1;
+    line-height: 1; 
 }
 
 #wrapper {
@@ -68,32 +68,28 @@ h3 {
 
 /* START OF SIDEBAR */
 #sideBar {
-    /* position: fixed; */
+    position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
-    width: 140%;
+    width: 20%;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
+    flex-shrink: auto;
     align-content: flex-start;
     background-color: var(--ff-primary-dark);
 }
 
-.devImg {
-    margin: auto;
-    width: 90%;
+.devImg img {
+    object-fit: contain;
+    align-items: center;
+    width: 100%;
+    height: auto;
 }
 
-.content {
-    position: static;
-    display: flex;
-    flex-direction: column;
-
-}
-
-.content h2 {
-    text-align: center;
+#home {
+    height: 100vh;
 }
 
 /* SOCIAL MEDIA SECTION */
@@ -107,11 +103,82 @@ h3 {
 #sideBar .mainNav {
     display: inline-block;
     text-decoration: none;
+    line-height: 2.5;
+}
+
+a:link {
+    color: blue;
+}
+
+a:hover {
+    color: hotpink;
+    text-decoration: overline underline;
+    font-size: 25px;
+    transition-duration: 1s;
+}
+
+a:active {
+    color: yellow;
+}
+
+a:visited {
+    color: green;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color: white;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.credits {
+    text-align: center;
 }
 
 /* END OF SIDEBAR */
 
-#header {
+/* START OF CONTENT */
+
+.content {
+    flex-shrink: auto;
+    margin-left: 20%;
+    position: static;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.content #home h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.content h2 {
+    text-align: left;
+}
+
+.img-fluid {
+    margin: 15px auto;
+    display: block;
+    width: 300px;
+}
+
+/* END OF CONTENT */
+
+/* #header {
     color: var(--clr-primary-200);
     background-color: var(--ff-primary-dark);
     height: 800px;
@@ -121,7 +188,7 @@ h3 {
     z-index: 5;
 }
 
-/* #pic {
+#pic {
     position: absolute;
     z-index: -1;
     opacity: 20%;
