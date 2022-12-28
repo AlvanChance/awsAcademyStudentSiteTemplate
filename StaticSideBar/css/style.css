@@ -112,6 +112,10 @@ h3 {
     line-height: 2.5;
 }
 
+#sideBar .mainNav ul {
+    list-style-type: none;
+}
+
 a:link {
     color: blue;
 }
@@ -140,12 +144,13 @@ a:visited {
 
 .copyright {
     position: fixed;
-    object-fit: scale-down;
+    /* object-fit: scale-down; */
     left: auto;
     right: auto;
     bottom: 0;
     color: white;
     text-align: center;
+    resize: both;
 }
 
 /* END OF SIDEBAR */
@@ -178,7 +183,7 @@ a:visited {
 .skills,
 .portfolio,
 .experience,
-.contacts {
+.contact {
     padding: 25px 5px;
 }
 
@@ -209,8 +214,6 @@ a:visited {
     padding: 0;
 }
 
-
-
 .content h2 {
     text-align: left;
 }
@@ -221,6 +224,43 @@ a:visited {
     display: block;
     width: 300px;
 }
+
+/*--------------------------------------------------------------
+# Akills
+--------------------------------------------------------------*/
+.skills .progress {
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+  }
+  
+  .skills .progress .skill {
+    padding: 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+  }
+  
+  .skills .progress .skill .val {
+    float: right;
+    font-style: normal;
+  }
+  
+  .skills .progress-bar-wrap {
+    background: #dce8f8;
+    height: 10px;
+  }
+  
+  .skills .progress-bar {
+    width: 1px;
+    height: 10px;
+    transition: 0.9s;
+    background-color: #149ddd;
+  }
 
 /* FOOTER */
 

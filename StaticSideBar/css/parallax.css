@@ -15,10 +15,12 @@
 
 .img2 {
     /* The image used */
-    background-image: url("https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/weather/cloud/cirrus-hooks.jpg");
+    /* background-image: url("https://blog.savills.com/_images/happy-office-worker.jpg"); */
+    background-color: grey;
 
     /* Set a specific height */
-    height: 100px; 
+    /* height: 100px; */
+    height: auto;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
