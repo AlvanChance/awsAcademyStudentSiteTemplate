@@ -39,7 +39,7 @@
 body {
     background-image: url(assets/bg.jpg);
     background-repeat: no-repeat;
-    /* background-color: pink; */
+    background-color: pink;
     background-size: cover;
     font-family: var(--ff-accent);
     font-weight: 400;
@@ -168,9 +168,17 @@ a:visited {
     transform: translate(-50%, -50%);
 }
 
+.about {
+    padding: 25px 5px;
+}
+
 /* ABOUT SECTION */
 
-.about {
+.about,
+.skills,
+.portfolio,
+.experience,
+.contacts {
     padding: 25px 5px;
 }
 
@@ -215,6 +223,8 @@ a:visited {
 }
 
 /* FOOTER */
+
+
 
 /* .overlay {
   position: absolute;
