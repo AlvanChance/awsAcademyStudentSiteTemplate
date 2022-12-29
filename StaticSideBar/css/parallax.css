@@ -19,7 +19,7 @@
     background-color: grey;
 
     /* Set a specific height */
-    /* height: 100px; */
+    /* height: 400px; */
     height: auto;
 
     /* Create the parallax scrolling effect */
@@ -34,7 +34,7 @@
     background-image: url("https://www.researchgate.net/publication/301945975/figure/fig10/AS:668942863454208@1536499815067/Architecture-of-third-party-auditing-47.ppm");
 
     /* Set a specific height */
-    height: 100px; 
+    height: 200px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -48,7 +48,7 @@
     background-image: url("https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41534-021-00442-x/MediaObjects/41534_2021_442_Fig1_HTML.png");
 
     /* Set a specific height */
-    height: 100px; 
+    height: 200px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -62,7 +62,7 @@
     background-image: url("https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs40747-020-00162-3/MediaObjects/40747_2020_162_Fig1_HTML.png");
 
     /* Set a specific height */
-    height: 100px; 
+    height: 200px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -76,7 +76,7 @@
     background-image: url("https://media.springernature.com/lw685/springer-static/image/chp%3A10.1007%2F978-3-030-33509-0_12/MediaObjects/482903_1_En_12_Fig1_HTML.png");
 
     /* Set a specific height */
-    height: 100px; 
+    height: 200px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;

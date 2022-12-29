@@ -28,7 +28,7 @@
     @import url();
 }
 
-@import "parallax.css";
+/* @import "parallax.css"; */
 
 *,
 *::before,
@@ -143,14 +143,18 @@ a:visited {
 }
 
 .copyright {
-    position: fixed;
+    /* position: relative; */
     /* object-fit: scale-down; */
-    left: auto;
-    right: auto;
-    bottom: 0;
+    /* left: auto; */
+    /* right: auto; */
+    /* bottom: 0; */
     color: white;
-    text-align: center;
-    resize: both;
+    /* text-align: center; */
+    /* resize: both; */
+    /* text-size-adjust: auto none; */
+    /* justify-content: center; */
+    /* display: flex; */
+    /* grid: auto; */
 }
 
 /* END OF SIDEBAR */
@@ -181,7 +185,9 @@ a:visited {
 
 .about,
 .skills,
+.resume,
 .portfolio,
+.services,
 .experience,
 .contact {
     padding: 25px 5px;
@@ -225,9 +231,9 @@ a:visited {
     width: 300px;
 }
 
-/*--------------------------------------------------------------
-# Akills
---------------------------------------------------------------*/
+/*-----------------------------------------
+# Skills
+-------------------------------------------*/
 .skills .progress {
     height: 60px;
     display: block;
