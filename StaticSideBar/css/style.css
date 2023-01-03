@@ -208,6 +208,10 @@ a:visited {
     box-sizing: border-box;
 }
 
+.about-col {
+    display: inline-flex;
+}
+
 .row {
     display: flex;
     width: 100%;
