@@ -214,12 +214,6 @@ a:visited {
     height: auto;
 }
 
-/* .col-left,
-.col-right {
-    margin: 0;
-    padding: 0;
-} */
-
 .content h2 {
     text-align: left;
 }
@@ -231,6 +225,11 @@ a:visited {
     width: 300px;
     border-radius: 20px;
 }
+
+/* .about .about-col {
+    display: flex;
+    flex-wrap: wrap;
+} */
 
 /*-----------------------------------------
 # Skills
