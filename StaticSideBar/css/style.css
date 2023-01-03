@@ -208,25 +208,17 @@ a:visited {
     box-sizing: border-box;
 }
 
-.about .about-col {
-    display: grid;
-}
-
-/* .aboutImg {
-    display: flex;
-} */
-
 .row {
     display: flex;
     width: 100%;
     height: auto;
 }
 
-.col-left,
+/* .col-left,
 .col-right {
     margin: 0;
     padding: 0;
-}
+} */
 
 .content h2 {
     text-align: left;
