@@ -79,7 +79,7 @@ h3 {
     bottom: 0;
     width: 20%;
     padding: 20px;
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
     flex-shrink: auto;
     align-content: flex-start;
@@ -91,6 +91,10 @@ h3 {
     align-items: center;
     width: 100%;
     height: auto;
+}
+
+h3 {
+    text-align: center;
 }
 
 #home {
