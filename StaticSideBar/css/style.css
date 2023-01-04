@@ -161,6 +161,14 @@ a:visited {
 
 /* START OF CONTENT */
 
+#home h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
 .content {
     flex-shrink: auto;
     margin-left: 20%;
