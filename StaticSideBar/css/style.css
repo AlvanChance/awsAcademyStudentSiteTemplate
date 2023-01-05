@@ -147,18 +147,19 @@ a:visited {
 }
 
 .copyright {
-    /* position: relative; */
+    position: absolute;
     /* object-fit: scale-down; */
     /* left: auto; */
     /* right: auto; */
-    /* bottom: 0; */
+    bottom: 0;
     color: white;
-    /* text-align: center; */
+    text-align: center;
     /* resize: both; */
     /* text-size-adjust: auto none; */
     /* justify-content: center; */
     /* display: flex; */
     /* grid: auto; */
+    font-size: small;
 }
 
 /* END OF SIDEBAR */
