@@ -122,6 +122,7 @@ h3 {
 
 a:link {
     color: blue;
+    text-decoration: none;
 }
 
 a:hover {
@@ -156,8 +157,8 @@ a:visited {
     text-align: center;
     /* resize: both; */
     /* text-size-adjust: auto none; */
-    /* justify-content: center; */
-    /* display: flex; */
+    justify-content: center;
+    display: block;
     /* grid: auto; */
     font-size: small;
 }
