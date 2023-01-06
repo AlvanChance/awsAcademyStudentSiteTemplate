@@ -4,3 +4,9 @@
 
 To start with, this is a sample of what the end product will look like, obviously with the new details added of the user.
 <img src="/img/billboard-demo.png"/>
+
+### Technologies
+
+- \*HTML
+- \*CSS
+- \*JavaScript
