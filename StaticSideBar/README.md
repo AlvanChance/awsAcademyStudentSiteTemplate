@@ -51,3 +51,13 @@ Following this, you'd then need to change the Profile Image within the `img scr=
   </div>
 </body>
 ```
+
+Details within the copyright section will be required to be updated to fit the users required build.
+
+```html
+<div class="copyright">
+  &copy; Copyright <strong><span>aCDesign</span></strong
+  ><br />
+  Designed by <a href="https://www.alvanchance.me.uk/">Alvan Chance</a>
+</div>
+```
